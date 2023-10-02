@@ -1,0 +1,354 @@
+body{
+    margin: 0px;
+    width: 100%;
+    color: #ffff;
+    background-color: black;
+    font-family: Netflix Sans,Helvetica Neue,Segoe UI,Roboto,Ubuntu,sans-serif;
+}
+.first-section{
+    width: 100%;
+    height: 700px;
+    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(media/cover-image.jpg);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+.header{
+    width: 100%;
+    height: 100px;
+}
+.left-header{
+    width:50%;
+    float: left;
+    height: 100px;
+}
+.logo{
+    width: 160px;
+    height: 50px;
+}
+.logo-pos{
+    width: auto;
+    margin-left: 170px;
+    margin-top: 20px;
+}
+.right-header{
+    width: 50%;
+    float: left;
+    height: 100px;
+}
+.language-selection{
+    float: left;
+    width: 120px;
+    height: 20px;
+    margin-left: 350px;
+    margin-top: 25px;
+    border: 1px groove #fff;
+    padding: 6px;
+    background-color: black;
+    border-radius: 5px;
+}
+.lang-icon{
+    float: left;
+}
+.languages{
+    float: left;
+    border: 0px;
+    width: 100px;
+    height: 20px;
+    background-color: black;
+    color: white; 
+    font-size: 15px;
+    padding-left: 5px;
+}
+.lang{
+    width: 20px;
+    height: 20px;
+    background-color: black;
+}
+.sign-in{
+    width: 80px;
+    height: 33px;
+    margin-top: 25px;
+    margin-left: 20px;
+    background-color: red;
+    color: #ffff;
+    border: 0px;
+    font-size: 15px;
+    border-radius: 5px;
+}
+.first-section-content{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+    margin-top: 30px;
+    width: max-content;
+}
+.first-section-content h1{
+    font-size: 48px;
+    line-height: 40px;
+    font-weight: 900;
+}
+.first-section-content h2{
+    font-weight: 400;
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+.first-section-content p{
+    font-size: 20px;
+    font-weight: 400;
+}
+.sign-up{
+    width: 590px;
+    margin-left: 236px;
+    display: flex;
+}
+.first-section-content input{
+    width: 350px;
+    height: 50px;
+    border:1px solid #c1bfbf;
+    background: transparent;
+    background-color: rgba(8, 8, 8, 0.553);
+    padding-left: 18px;
+    line-height: 1.5;
+    border-radius: 5px;
+}
+::placeholder {
+    color: #c1bfbf;
+    font-size: 17px;
+}
+.first-section-content button{
+    width: 200px;
+    height: 56px;
+    margin-left:10px;
+    color:#fff;
+    background-color: red;
+    font-size: 22px;
+    border-radius: 5px;
+    border: none;
+}
+hr{
+    height: 10px;
+    background-color: rgba(94, 94, 94, 0.68);
+    margin-top: -1px;
+    border: none;
+}
+.middle-sections{
+    width: 100%;
+    height: 570px;
+}
+.section-writing{
+    width: 50%;
+    height: 560px;
+    float: left;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-content: center;
+}
+.section-writing h1{
+    font-weight: 900;
+    font-size: 48px;
+    margin-bottom: 0px;
+    width: 547px;
+}
+.section-writing p{
+    font-size: 24px;
+    font-weight: 400;
+    margin-top: 10px;
+}
+.paragraph-width{
+    width: 547px;
+}
+.section-media{
+    width: 50%;
+    height: 560px;
+    float: left;
+    position: relative;
+}
+.section-media img{
+    margin-top: 50px;
+    position: absolute;
+    z-index: 10;
+}
+.section-media video{
+    position: absolute;
+    top: 127px;
+    left: 84px;
+    width: 466px;
+    height: 310px;
+}
+.phone-screen{
+    margin-top: 45px;
+    position: absolute;
+}
+.third-section-media{
+    width: 310px;
+    height: 85px;
+    border-radius: 10px;
+    border: 1px solid #fff;
+    position: absolute;
+    background-color: black;
+    top: 375px;
+    left: 157px;
+    z-index: 10;
+    padding-left: 15px;
+}
+#movie-poster{
+    width: 65px;
+    height: 70px;
+    float: left;
+    margin-top: 8px;
+    margin-left: 6px;
+}
+.movie-status{
+    width: 142px;
+    height: 85px;
+    float: left;
+    margin-left: 85px;
+}
+#movie-name{
+    font-size: 15px;
+    margin-top: 20px;
+    margin-bottom: 0px;
+    width: 130px;
+}
+#downloading{
+    color: blue;
+    margin-top: 0px;
+    font-size: 14px;
+}
+#download-anim{
+    width: 40px;
+    height: 40px;
+    float: left;
+    margin-top: 20px;
+}
+#computer-video{
+    position: absolute;
+    top: 70px;
+    left: 120px;
+    width: 395px;
+    height: 300px;
+}
+.FAQ{
+    width: 100%;
+    height: 780px;
+}
+.FAQ h1{ 
+    font-weight: 900;
+    font-size: 48px;
+    margin-bottom: 0px;
+    margin-top: 60px;
+    width: 670px;
+    margin-left: 25%;
+}
+.questions{
+    width: 100%;
+    max-width: 70%;
+    margin-left: 135px;
+}
+.questions li{
+    list-style: none;
+    width: 100%;
+    padding: 5px;
+}
+.questions li label{
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    font-size: 25px;
+    font-weight: 600;
+    margin-bottom: 2px;
+    cursor: pointer;
+    position: relative;
+    background-color: #303030;
+}
+label::after{
+    content: '+';
+    font-size: 34px;
+    position: absolute;
+    right: 20px;
+    transition: transform 0.5s;
+}
+input[type="radio"]{
+    display: none;
+}
+.questions .content{
+    background-color: #303030;
+    text-align: left;
+    max-height: 0;
+    padding: 0 20px;
+    overflow: hidden;
+    transition: max-height 0.5s, padding 0.5s;
+}
+.questions input[type="radio"]:checked + label + .content{
+    max-height: 600px;
+    padding: 30px 20px;
+}
+.questions input[type="radio"]:checked + label::after{
+    transform: rotate(45deg);
+}
+.questions p{
+    font-size: 20px;
+    font-weight: 400;
+}
+.membership{
+    position: absolute;
+    text-align: center;
+    margin-left: 10%;
+}
+.membership p{
+    font-size: 20px;
+    font-weight: 400;
+    margin-left: 210px;
+}
+.register{
+    width: 590px;
+    margin-left: 236px;
+    display: flex;
+}
+.membership input{
+    width: 350px;
+    height: 50px;
+    border:1px solid #c1bfbf;
+    background: transparent;
+    background-color: rgba(8, 8, 8, 0.553);
+    padding-left: 18px;
+    line-height: 1.5;
+    border-radius: 5px;
+}
+::placeholder {
+    color: #c1bfbf;
+    font-size: 17px;
+}
+.membership button{
+    width: 200px;
+    height: 56px;
+    margin-left:10px;
+    color:#fff;
+    background-color: red;
+    font-size: 22px;
+    border-radius: 5px;
+    border: none;
+}
+footer{
+    width: 100%;
+    height: 380px;
+}
+footer p{
+    font-size: 15px;
+    margin-left: 200px;
+    margin-top: 80px;
+}
+.footer-links{
+    display: flex;
+    justify-content: space-evenly;
+}
+.footer-links a{
+    color: #fff;
+}
+#footer-language-selection{
+    margin-left: 200px;
+}
